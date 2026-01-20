@@ -6,7 +6,7 @@
     <title>Australian Cryptocurrency - Regulation & Adoption</title>
     <meta name="description" content="A comprehensive guide to cryptocurrency in Australia: regulations, use cases, and local adoption trends.">
     
-    <!-- Meta Pixel Code - 放置在head标签顶部，符合官方最佳实践 -->
+    <!-- Meta Pixel Code - Placed at the top of head tag (Meta best practice) -->
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -24,20 +24,20 @@
     /></noscript>
     <!-- End Meta Pixel Code -->
 
-    <!-- 引入Tailwind CSS简化样式开发 -->
+    <!-- Import Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 引入Font Awesome图标 -->
+    <!-- Import Font Awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- 配置Tailwind自定义主题（适配澳洲风格的配色） -->
+    <!-- Configure Tailwind custom theme (Australian style colors) -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
                         aussie: {
-                            blue: '#00247D', // 澳洲蓝
-                            gold: '#FFDF00',  // 澳洲金
-                            green: '#00843D', // 澳洲绿
+                            blue: '#00247D', // Australian blue
+                            gold: '#FFDF00',  // Australian gold
+                            green: '#00843D', // Australian green
                             dark: '#1E293B',
                             light: '#F8FAFC'
                         },
@@ -49,7 +49,7 @@
             }
         }
     </script>
-    <!-- 自定义样式 -->
+    <!-- Custom styles -->
     <style type="text/tailwindcss">
         @layer utilities {
             .text-shadow {
@@ -62,7 +62,7 @@
     </style>
 </head>
 <body class="bg-aussie-light text-aussie-dark">
-    <!-- 导航栏 -->
+    <!-- Navigation Bar -->
     <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center gap-2">
@@ -73,31 +73,31 @@
                 <a href="#overview" class="font-medium hover:text-aussie-green transition-colors">Overview</a>
                 <a href="#regulation" class="font-medium hover:text-aussie-green transition-colors">Regulation</a>
                 <a href="#use-cases" class="font-medium hover:text-aussie-green transition-colors">Use Cases</a>
-                <!-- 为导航栏联系按钮添加ID用于事件追踪 -->
-                <a href="#contact" id="navContactButton" class="bg-aussie-blue text-white px-4 py-2 rounded-md hover:bg-aussie-blue/90 transition-colors">
-                    <i class="fa-brands fa-whatsapp mr-2"></i>Contáctame por WhatsApp
+                <!-- Navigation WhatsApp Button - Direct Link -->
+                <a href="https://wa.me/your-phone-number" target="_blank" id="navContactButton" class="bg-aussie-blue text-white px-4 py-2 rounded-md hover:bg-aussie-blue/90 transition-colors">
+                    <i class="fa-brands fa-whatsapp mr-2"></i>Contact Me on WhatsApp
                 </a>
             </nav>
-            <!-- 移动端菜单按钮 -->
+            <!-- Mobile Menu Button -->
             <button class="md:hidden text-aussie-dark text-xl" id="menuBtn">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
-        <!-- 移动端菜单 -->
+        <!-- Mobile Menu -->
         <div class="md:hidden hidden bg-white shadow-lg absolute w-full" id="mobileMenu">
             <div class="container mx-auto px-4 py-3 flex flex-col gap-4">
                 <a href="#overview" class="font-medium py-2 border-b border-gray-100">Overview</a>
                 <a href="#regulation" class="font-medium py-2 border-b border-gray-100">Regulation</a>
                 <a href="#use-cases" class="font-medium py-2 border-b border-gray-100">Use Cases</a>
-                <!-- 为移动端菜单联系按钮添加ID用于事件追踪 -->
-                <a href="#contact" id="mobileNavContactButton" class="bg-aussie-blue text-white px-4 py-2 rounded-md text-center">
-                    <i class="fa-brands fa-whatsapp mr-2"></i>Contáctame por WhatsApp
+                <!-- Mobile Menu WhatsApp Button - Direct Link -->
+                <a href="https://wa.me/your-phone-number" target="_blank" id="mobileNavContactButton" class="bg-aussie-blue text-white px-4 py-2 rounded-md text-center">
+                    <i class="fa-brands fa-whatsapp mr-2"></i>Contact Me on WhatsApp
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- 英雄区 -->
+    <!-- Hero Section -->
     <section class="bg-gradient-to-br from-aussie-blue/90 to-aussie-green/90 text-white section-padding">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-center">
@@ -108,16 +108,16 @@
                     Navigating the regulatory landscape, adoption trends, and practical uses of digital assets across Aussie businesses and households.
                 </p>
                 <div class="flex justify-center">
-                    <!-- 为英雄区联系按钮添加ID用于事件追踪 -->
-                    <a href="#contact" id="heroContactButton" class="bg-aussie-gold text-aussie-blue font-medium px-8 py-4 rounded-md hover:bg-aussie-gold/90 transition-colors text-lg">
-                        <i class="fa-brands fa-whatsapp mr-2"></i>Si estás interesado, contáctame por WhatsApp
+                    <!-- Hero Section WhatsApp Button - Direct Link -->
+                    <a href="https://wa.me/your-phone-number" target="_blank" id="heroContactButton" class="bg-aussie-gold text-aussie-blue font-medium px-8 py-4 rounded-md hover:bg-aussie-gold/90 transition-colors text-lg">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>If you're interested, contact me on WhatsApp
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 核心概述 -->
+    <!-- Core Overview -->
     <section id="overview" class="section-padding">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-center mb-12">
@@ -163,7 +163,7 @@
         </div>
     </section>
 
-    <!-- 监管政策 -->
+    <!-- Regulatory Policy -->
     <section id="regulation" class="bg-gray-50 section-padding">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
@@ -228,7 +228,7 @@
         </div>
     </section>
 
-    <!-- 应用场景 -->
+    <!-- Use Cases -->
     <section id="use-cases" class="section-padding">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
@@ -296,15 +296,15 @@
         </div>
     </section>
 
-    <!-- 联系/咨询区 -->
+    <!-- Contact Section -->
     <section id="contact" class="section-padding bg-aussie-blue text-white">
         <div class="container mx-auto px-4">
             <div class="max-w-2xl mx-auto text-center mb-8">
                 <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold mb-4">
-                    Contáctame por WhatsApp
+                    Contact Me on WhatsApp
                 </h2>
                 <p class="text-lg opacity-90 mb-8">
-                    Obtén asesoramiento personalizado sobre regulación de criptomonedas, impuestos y estrategias de inversión adaptadas a residentes australianos.
+                    Get personalized advice on cryptocurrency regulation, taxes, and investment strategies tailored to Australian residents.
                 </p>
             </div>
 
@@ -313,19 +313,19 @@
                     <div class="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mb-4">
                         <i class="fa-brands fa-whatsapp text-4xl text-white"></i>
                     </div>
-                    <!-- 为核心联系按钮添加ID用于事件追踪 -->
-                    <a href="https://wa.me/你的电话号码" target="_blank" id="mainContactButton" class="w-full bg-green-500 text-white font-medium px-6 py-4 rounded-md hover:bg-green-600 transition-colors text-center text-lg">
-                        <i class="fa-brands fa-whatsapp mr-2"></i>Si estás interesado, contáctame por WhatsApp
+                    <!-- Main Contact Section WhatsApp Button - Direct Link -->
+                    <a href="https://wa.me/your-phone-number" target="_blank" id="mainContactButton" class="w-full bg-green-500 text-white font-medium px-6 py-4 rounded-md hover:bg-green-600 transition-colors text-center text-lg">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>If you're interested, contact me on WhatsApp
                     </a>
                     <p class="text-center text-white/80 text-sm">
-                        ¡Respondo rápidamente a todas las consultas!
+                        I respond quickly to all inquiries!
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 简化后的页脚 -->
+    <!-- Simplified Footer -->
     <footer class="bg-aussie-dark text-white py-8">
         <div class="container mx-auto px-4">
             <div class="text-center text-gray-500 text-sm">
@@ -337,7 +337,7 @@
 
     <!-- JavaScript -->
     <script>
-        // 移动端菜单切换
+        // Mobile Menu Toggle
         const menuBtn = document.getElementById('menuBtn');
         const mobileMenu = document.getElementById('mobileMenu');
         menuBtn.addEventListener('click', () => {
@@ -347,26 +347,29 @@
             icon.classList.toggle('fa-times');
         });
 
-        // 平滑滚动
+        // Remove smooth scroll impact on WhatsApp buttons (keep for other anchors)
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    // 关闭移动端菜单
-                    mobileMenu.classList.add('hidden');
-                    menuBtn.querySelector('i').classList.remove('fa-times');
-                    menuBtn.querySelector('i').classList.add('fa-bars');
-                }
-            });
+            // Exclude WhatsApp links
+            if (!anchor.href.includes('wa.me')) {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        // Close mobile menu
+                        mobileMenu.classList.add('hidden');
+                        menuBtn.querySelector('i').classList.remove('fa-times');
+                        menuBtn.querySelector('i').classList.add('fa-bars');
+                    }
+                });
+            }
         });
 
-        // 导航栏滚动效果
+        // Navbar Scroll Effect
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -378,22 +381,22 @@
             }
         });
 
-        // ========== Meta Pixel 事件追踪 - 联系按钮点击 ==========
-        // 定义统一的事件追踪函数
+        // ========== Meta Pixel Event Tracking - Contact Button Clicks ==========
+        // Unified event tracking function
         function trackContactButtonClick(buttonType) {
-            // 触发Facebook Pixel的Contact事件（符合Meta标准事件）
+            // Trigger Meta Pixel Contact event (standard Meta event)
             fbq('track', 'Contact', {
                 contact_method: 'WhatsApp',
                 button_location: buttonType,
                 currency: 'AUD',
                 content_category: 'Cryptocurrency Consultation'
             });
-            // 可选：控制台输出，便于测试
+            // Optional: Console log for testing
             console.log(`Contact button clicked - ${buttonType}`);
         }
 
-        // 为所有联系按钮绑定点击事件
-        // 1. 导航栏联系按钮
+        // Bind click events to all WhatsApp buttons
+        // 1. Navigation Bar WhatsApp Button
         const navContactButton = document.getElementById('navContactButton');
         if (navContactButton) {
             navContactButton.addEventListener('click', function() {
@@ -401,7 +404,7 @@
             }, false);
         }
 
-        // 2. 移动端菜单联系按钮
+        // 2. Mobile Menu WhatsApp Button
         const mobileNavContactButton = document.getElementById('mobileNavContactButton');
         if (mobileNavContactButton) {
             mobileNavContactButton.addEventListener('click', function() {
@@ -409,7 +412,7 @@
             }, false);
         }
 
-        // 3. 英雄区联系按钮
+        // 3. Hero Section WhatsApp Button
         const heroContactButton = document.getElementById('heroContactButton');
         if (heroContactButton) {
             heroContactButton.addEventListener('click', function() {
@@ -417,7 +420,7 @@
             }, false);
         }
 
-        // 4. 核心联系区按钮（跳转到WhatsApp）
+        // 4. Main Contact Section WhatsApp Button
         const mainContactButton = document.getElementById('mainContactButton');
         if (mainContactButton) {
             mainContactButton.addEventListener('click', function() {
